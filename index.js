@@ -138,7 +138,7 @@ app.use(
 
 
 
-var whitelist = ['https://marcodagolini.github.io','https://vodit-report.fs.liveperson.com']
+var whitelist = ['https://marcodagolini.github.io','https://vodit-report.fs.liveperson.com, https://mseragiotto.github.io']
 /*var corsOptions = {
   origin: function (origin, callback) {
 	  console.log(origin);
@@ -1257,8 +1257,8 @@ function checkValuesPost(req, res, next) {
 	
 	res.send("ok");
 	
-	// console.log(" my tipeOfRequest --> " + tipeOfRequest);
-	// console.log(" my myPayload --> " + JSON.stringify(myPayload));
+	 console.log(" my tipeOfRequest --> " + tipeOfRequest);
+	 console.log(" my myPayload --> " + JSON.stringify(myPayload));
 	
 	/******
 	
